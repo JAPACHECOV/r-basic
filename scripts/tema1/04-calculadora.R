@@ -287,7 +287,8 @@ sqrt(as.complex(-5))
 
 #La raíz cuadrada devuelve, de las dos soluciones la de
 #Re(z)>0, para obtener la otra,  hay que multiplicar por -1
-sqrt(3+2i) # z^2 = 3+2i
+sqrt(3+2i) # z^2 = 3+2i solucion positiva
+sqrt(3+2i)*-1 # z^2 = 3+2i solucion negativa = positiva por (-1)
 exp(3+2i)
 sin(3+2i)
 cos(3+2i)
@@ -312,3 +313,11 @@ z2
 Mod(z2)
 Arg(z2)
 pi/2
+
+# ------------------------------------------------------------
+
+
+
+
+
+e
